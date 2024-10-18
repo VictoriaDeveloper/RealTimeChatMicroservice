@@ -1,30 +1,30 @@
-Software Engineering Postmortem: Real-time Chat Microservice
+# Software Engineering Postmortem: Real-time Chat Microservice
 
 The Real-time Chat Microservice project was a full-stack web application developed using the Firebase ecosystem, React.js, Express.js, and Node.js. The goal was to create a real-time chat experience where users could create an account, log in, and send and receive messages in real time. The messages were saved in Firebase's Firestore Database, and users could view their chat history in an organized manner. This project was completed as part of a Women in Computer Science event, with a tight timeline of just 1.5 hours.
 
 The project followed a tight schedule, with only a day to complete the implementation. The core functionality revolved around:
 
-User authentication via Firebase's Authentication service.
+- User authentication via Firebase's Authentication service.
 
-User login and listing all registered users from Firebase Firestore.
+- User login and listing all registered users from Firebase Firestore.
 
-Real-time messaging, where users could initiate a chat and have live conversations.
+- Real-time messaging, where users could initiate a chat and have live conversations.
 
-Message history display, where all chat data was saved in Firestore and retrieved for both users in the conversation.
+- Message history display, where all chat data was saved in Firestore and retrieved for both users in the conversation.
 
 The Firebase ecosystem was utilized heavily for backend services, while React.js powered the frontend interface. This combination allowed rapid development and deployment.
 
 Despite the limited timeframe, the project achieved several key objectives:
 
-User registration and authentication: Users could successfully create accounts using email and password, and this was verified via the Firebase Console.
+- User registration and authentication: Users could successfully create accounts using email and password, and this was verified via the Firebase Console.
 
-Login functionality: Users could log in without issues, and the authentication state was managed using Firebase’s onAuthStateChanged method.
+- Login functionality: Users could log in without issues, and the authentication state was managed using Firebase’s onAuthStateChanged method.
 
-Retrieving user data: All user profiles were pulled from Firestore and displayed in a user list for easy selection.
+- Retrieving user data: All user profiles were pulled from Firestore and displayed in a user list for easy selection.
 
-Real-time chat functionality: The app successfully established a real-time chat service. Users could open a conversation, send messages, and receive them in real time, with updates happening instantly.
+- Real-time chat functionality: The app successfully established a real-time chat service. Users could open a conversation, send messages, and receive them in real time, with updates happening instantly.
 
-Message persistence: All messages were saved and displayed correctly, maintaining the order in which they were sent. Firestore's real-time update capabilities ensured smooth message syncing.
+- Message persistence: All messages were saved and displayed correctly, maintaining the order in which they were sent. Firestore's real-time update capabilities ensured smooth message syncing.
 
 There were a few challenges encountered during the development process:
 
