@@ -28,24 +28,24 @@ Despite the limited timeframe, the project achieved several key objectives:
 
 There were a few challenges encountered during the development process:
 
-Message collection structure: Defining the correct fields for the message collection in Firestore was initially tricky. Deciding how to structure the documents and ensure efficient retrieval took some time to resolve.
+- Message collection structure: Defining the correct fields for the message collection in Firestore was initially tricky. Deciding how to structure the documents and ensure efficient retrieval took some time to resolve.
 
-Sorting messages: Incorrect query parameters were initially used to retrieve messages in the correct order. This required careful tuning of the Firestore queries to ensure messages were displayed chronologically within each conversation.
+- Sorting messages: Incorrect query parameters were initially used to retrieve messages in the correct order. This required careful tuning of the Firestore queries to ensure messages were displayed chronologically within each conversation.
 Both issues were eventually resolved, allowing the app to work as intended, but they posed significant hurdles in the short time frame.
 
 Throughout this project, several key lessons were learned:
 
-Query parameters in Firestore: I gained a deep understanding of how to properly use query parameters to filter and sort documents when retrieving data from Firestore collections.
+- Query parameters in Firestore: I gained a deep understanding of how to properly use query parameters to filter and sort documents when retrieving data from Firestore collections.
 
-Firestore structure: Working with Firestore was an insightful experience, particularly recognizing its similarities to MongoDB as a document-based NoSQL database.
+- Firestore structure: Working with Firestore was an insightful experience, particularly recognizing its similarities to MongoDB as a document-based NoSQL database.
 
 Overall, the experience was positive, and the project did not require major improvements, given the successful outcomes.
 
 Looking ahead, there are some features that could enhance the real-time chat microservice:
 
-Sending attachments: It would be valuable for users to send files or images as attachments in their chats.
+- Sending attachments: It would be valuable for users to send files or images as attachments in their chats.
 
-Group chat functionality: Expanding from one-on-one messaging to group chat conversations would significantly increase the app's functionality and use cases.
+- Group chat functionality: Expanding from one-on-one messaging to group chat conversations would significantly increase the app's functionality and use cases.
 
 These features could provide more flexibility and better user engagement in future iterations of the application.
 
